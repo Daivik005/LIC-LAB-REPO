@@ -84,12 +84,22 @@ Circuit:
 ![Screenshot 2025-02-17 214012](https://github.com/user-attachments/assets/bd3146b6-3ac1-4904-9133-d192f22915d9)
 
 Procedure
+
 Design the CMOS amplifier circuit.
+
 Naming the NMOS as CMOSN and PMOS as CMOSP.
+
 Apply the DC voltage of VDD = 1.8 V
+
 DC sweep Analysis: Go to the edit simulation command and select the DC sweep option and choose: -Source name= Vin. -type of Sweep= Linear. -start value=0, -stop value =VDD=1.8 V. -increment=0.1.
+
 find the Vin from the vtc curve
-5. DC Analysis:put the appropriate Vin value. go to the Simulate option and select Edit Simulation Command.Click on DC Analysis, then press OK.Click on Run in the tab menu to obtain the DC operating point Vout .Set the Length as constant and determine the Width such that ID = 55.5 uA .
+
+DC Analysis:put the appropriate Vin value. go to the Simulate option and select Edit Simulation Command.
+
+Click on DC Analysis, then press OK.Click on Run in the tab menu to obtain the DC operating point Vout .
+
+Set the Length as constant and determine the Width such that ID = 55.5 uA .
 
 Transient Analysis:Modify the Vin voltage source to a sine wave input with:
 
