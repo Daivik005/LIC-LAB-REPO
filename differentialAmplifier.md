@@ -164,6 +164,7 @@ The gain is -2.51V/V. 180 degree phase shift.
 - Bandwidth = 28.58 GHz
 
 Inferences
+
 After all that back and forth what do we learn from all that analysis
 
 1. Be sure you know all the parameters we have missed some parameters and their effect that's why our theoretical and practical gain is not matching
