@@ -195,6 +195,18 @@ Comparison Table
 > - The **gain improves** significantly due to higher output resistance.
 > - The **bandwidth reduces**, indicating a trade-off between gain and speed.
 
+## For 1:2 
+
+We are gonna find the Iref and Ix.
+By calculation we got 185uA and 370uA respectively.
+So Itotal = 555uA.
+
+I am checking for L = 500nm.
+
+First setting the Width for M1 for 185uA. 
+
+![Wfor1isto2](https://github.com/user-attachments/assets/63d0210b-a9c0-4002-82b6-db3aee3bb213)
+
 Conclusion:
 
 1:1 Current Mirror
