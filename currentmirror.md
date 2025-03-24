@@ -195,7 +195,7 @@ Comparison Table
 > - The **gain improves** significantly due to higher output resistance.
 > - The **bandwidth reduces**, indicating a trade-off between gain and speed.
 
-Conclution:
+Conclusion:
 
 1:1 Current Mirror
 
