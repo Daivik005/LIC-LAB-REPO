@@ -207,6 +207,30 @@ First setting the Width for M1 for 185uA.
 
 ![Wfor1isto2](https://github.com/user-attachments/assets/63d0210b-a9c0-4002-82b6-db3aee3bb213)
 
+Then mutiplying the W value manually we got 22.150 um. For this value we got the value of current to be 369.39uA. So by incrementing the width value by 0.04 um we got the following results.
+
+## DC Analysis
+
+![DCfor1isto2](https://github.com/user-attachments/assets/cd1a33ef-7922-4e4d-a33c-2e617c851217)
+
+For better understanding.
+
+![BetterDCfor1isto2](https://github.com/user-attachments/assets/12e8ec1f-7f56-4fd4-a5fa-9d723b2a0acc)
+
+## Transient Analysis
+
+![TransientAnalysisfor1isto2](https://github.com/user-attachments/assets/3e0a5d8e-ee18-467f-8839-364c41da8c96)
+
+Gain = -15.002 V/V
+
+## AC Analysis
+
+![ACfor1isto2](https://github.com/user-attachments/assets/c08eb7b3-1146-4f88-a2bd-6d35919bb7c4)
+
+Gain in db = 34.53
+-3db gain = 31.53
+Bandwidth = 126.95 MHz
+
 Conclusion:
 
 1:1 Current Mirror
