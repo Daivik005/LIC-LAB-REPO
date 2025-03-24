@@ -102,6 +102,7 @@ For M3, Vov ≈ 0.26 V, gm ≈ 0.73 mS
 ![Transientanalysis_180nm](https://github.com/user-attachments/assets/d581566f-d112-434d-b7a8-9f913b1293d0)
 
 calculated Gain = -13.3V/V
+
 Calculated Gain in db = 22.47
 
 ## AC Analysis
@@ -109,8 +110,11 @@ Calculated Gain in db = 22.47
 ![AC analysis180nm](https://github.com/user-attachments/assets/f75e31b8-a0c3-47d5-b7ef-6e53560b4cbe)
 
 Calculated Gain in db = 22.47
+
 simulation Gain in db = 26.30
+
 -3db = 23.30
+
 Bandwidth = 1.823 GHz
 
 ## For L = 500nm
@@ -138,7 +142,9 @@ Calculated gain = -15.268 V/V
 ![ACfor500nm](https://github.com/user-attachments/assets/cece5e7c-5662-4d67-915a-cf04018374c6)
 
 Gain in db = 34.5
+
 -3db Gain = 31.5
+
 Bandwidth = 166.998 MHz
 
 We can notice the increase in the gain when we increase the length to 500nm. This is due to the decrease in the channel length modulation effect. As lambda decreases the impedence increases. 
@@ -170,7 +176,9 @@ Gain = 15.854 V/V
 ![ACfor1u](https://github.com/user-attachments/assets/d871a77f-6db6-4d66-8240-ac131fbd5370)
 
 Gain in db = 37.02
+
 -3db Gain = 34.02
+
 Bandwidth = 67.98 MHz
 
 Comparison Table
@@ -187,4 +195,27 @@ Comparison Table
 > - The **gain improves** significantly due to higher output resistance.
 > - The **bandwidth reduces**, indicating a trade-off between gain and speed.
 
+Conclution:
+
+1:1 Current Mirror
+
+Effect of W/L Ratio: Increasing the W/L ratio improves current matching accuracy and reduces output resistance variations, enhancing performance.
+Power Efficiency: The circuit operates efficiently within a 1.8V supply, making it suitable for low-power analog applications.
+
+1:2 Current Mirror
+
+Current Scaling: The output current is ideally twice the reference current, as designed for a 1:2 current mirror ratio.
+Deviation from Ideal Ratio: Minor mismatches are observed due to process variations, threshold voltage differences, and channel-length modulation.
+Higher Power Dissipation: Since the output current is doubled, power consumption is higher compared to a 1:1 current mirror.
+
+## 🔄 Current Mirror Comparison: 1:1 vs. 1:2
+
+| Parameter                   | 1:1 Current Mirror       | 1:2 Current Mirror       |
+|----------------------------|--------------------------|--------------------------|
+| Input to Output Current Ratio | 1:1                      | 1:2                      |
+| Transistor Width Ratio     | M1 = M2                  | M2 = 2 × M1              |
+| Gain (Approximate, in dB)  | Lower                    | Higher                   |
+| Output Resistance          | Moderate                 | Slightly Lower           |
+| Accuracy                   | Higher (if matched well) | Can suffer mismatch      |
+| Power Consumption          | Lower                    | Higher (due to doubled output current) |
 
