@@ -1,5 +1,7 @@
-#Experiment 5 – Design and Analysis of Astable Multibrator Circuit
-Contents
+# Experiment 5 – Design and Analysis of Astable Multibrator Circuit
+
+## Contents
+
 Aim, Components Required
 Theory of Differential Amplifier
 Circuit Diagram with Specifications
